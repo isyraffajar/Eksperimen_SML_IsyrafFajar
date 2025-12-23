@@ -2,7 +2,7 @@
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 
-def preprocess(input_csv="../Telco-Customer-Churn.csv",
+def preprocess(input_csv="Telco-Customer-Churn.csv",
                output_csv="Customer-Churn_processed.csv"):
     """
     Fungsi ini melakukan preprocessing otomatis:
